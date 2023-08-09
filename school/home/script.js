@@ -1,5 +1,3 @@
-// These features are not supported by all browsers. You can check the support on the site "Can I use"
-
 function scroller() {
   $(".smooth").on("scroll", function() {
     let scrollPos = $(this).scrollTop();
