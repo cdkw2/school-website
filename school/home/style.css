@@ -97,7 +97,7 @@ header ul li {
 header ul li a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  color: #445069;
+  color: #96B6C5;
 }
 header ul li::before {
   position: absolute;
@@ -106,7 +106,7 @@ header ul li::before {
   left: 0;
   width: 20px;
   height: 2px;
-  background-color: #445069;
+  background-color: #96B6C5;
   transform-origin: 0 100%;
   transform: rotate(-5deg);
   transition: all 0.2s ease-out;
@@ -167,7 +167,7 @@ section {
   align-items: center;
   font-size: 1rem;
   border-radius: 1em;
-  background-image: url("");
+  background-color: #2c2e34;
   background-position: center;
   background-size: cover;
 }
