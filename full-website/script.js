@@ -2,7 +2,7 @@ var audio = new Audio('Nuvema-Town.mp3');
 var isAudioPlaying = false;
 
 // Set the desired volume level (between 0 and 1)
-audio.volume = 0.5; // Adjust this value to your preference
+audio.volume = 0.1; // Adjust this value to your preference
 
 function playAudio() {
   if (!isAudioPlaying) {
