@@ -1,7 +1,7 @@
 var audio = new Audio('Fortree-City.mp3');
 var isAudioPlaying = false;
 
-audio.volume = 0.25;
+audio.volume = 0.1;
 
 function playAudio() {
   if (!isAudioPlaying) {

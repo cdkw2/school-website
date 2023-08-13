@@ -51,7 +51,7 @@ a:link, a:visited {
 }
 
 .title {
-  color:#5B9A8B;
+  color:#d3d3d3;
   text-align:center;
   font-family: 'Playfair Display', serif;
   font-weight:900;
@@ -63,7 +63,7 @@ a:link, a:visited {
 #description {
   text-align:center;
   font-family:'Poppins', sans-serif;
-  color:#D0F5BE;
+  color:#ffffff;
   margin-top:30px;
 }
 
@@ -79,7 +79,7 @@ a:link, a:visited {
 
 .name {
   text-align:center;
-  color:#5B9A8B;
+  color:#ffffff;
   font-family:'Poppins', sans-serif;
 }
 
