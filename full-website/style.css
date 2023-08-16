@@ -157,6 +157,17 @@ progress::-webkit-progress-value {
   border-radius: 1em;
   height: 5px;
 }
+.image-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: 200px;
+  width: 320px;
+  margin: 0 7px;
+}
 section {
   position: relative;
   display: flex;
@@ -304,58 +315,6 @@ section h2 span {
   height: 150%;
   box-shadow: inset 0 0 0 600px rgba(255,255,255,0.3);
   filter: blur(10px);
-}
-form {
-  position: relative;
-  z-index: 3;
-  padding: 1em;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  border: 2px solid #fff;
-  border-radius: 0.35em;
-}
-form img {
-  width: 64px;
-  height: 64px;
-}
-form input {
-  margin-bottom: 1em;
-  min-height: 3em;
-  font-size: 1em;
-  color: #fff;
-  border: 0;
-  border-bottom: 2px solid #fff;
-  background: none;
-}
-form input::placeholder {
-  position: relative;
-  top: 0;
-  color: inherit;
-  transition: all 0.2s linear;
-}
-form input:focus {
-  outline: none;
-}
-form input:focus::placeholder {
-  top: -1.25em;
-  font-size: 0.825rem;
-}
-form .button {
-  position: relative;
-  margin-top: 1em;
-  padding: 1em 3em;
-  text-transform: uppercase;
-  display: block;
-  font-size: 1rem;
-  cursor: pointer;
-  color: #fff;
-  border: 0;
-  border-radius: 0.35em;
-  background-color: #8062D6;
 }
 footer {
   padding-bottom: 1em;
