@@ -4,10 +4,50 @@ body {
   height: 100vh;
   overflow: hidden;
   line-height: 1.5;
-  font-family: 'Inconsolata', sans-serif;
+  font-family: 'Inconsolata', monospace;
   font-size: 100%;
-  color: #F8F0E5;
+  color: #91D18B;
   background-color: #1d1e22;
+}
+li.search-bar {
+  float: right;
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+}
+
+li.search-bar input[type="text"] {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-family: 'Inconsolata', monospace;
+  font-size: 14px;
+  padding: 8px;
+  border-bottom: 1px solid #91D18B;
+  outline: none;
+}
+
+li.search-bar button[type="submit"] {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+li.search-bar i {
+  color: #91D18B;
+  font-size: 18px;
+}
+
+.heading{
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
+  word-spacing: 0px;
+  color: #91D18B;
+  font-weight: 700;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
 }
 ul {
   list-style-type: none;
@@ -20,6 +60,9 @@ li {
   float: left;
 }
 li a, .dropbtn {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  letter-spacing: 1px;
   display: inline-block;
   color: white;
   text-align: center;
@@ -127,7 +170,7 @@ section#one::after {
   background-position: center;
 }
 section h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Inconsolata', monospace;
 }
 section h2 span {
   color: #8062D6;

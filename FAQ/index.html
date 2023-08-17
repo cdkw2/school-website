@@ -1,13 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>FAQ Page</title>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700|Roboto+Slab:400,700">
+  <title>FAQ</title>
   <link rel="stylesheet" href="./style.css">
+
 </head>
 <body>
 <header class="header">
@@ -15,17 +12,17 @@
 		<div class="wrapper">
 			<ul class="navigation-list ul-reset">
 				<li class="navigation-item ib">
-					<a href="../index.html" class="navigation-link">
+					<a href="../index.html" class="navigation-link" target="_blank" rel="noopener noreferrer">
 						Home
 					</a>
 				</li>
 				<li class="navigation-item ib">
-					<a href="../parallax-about/index.html" class="navigation-link">
+					<a href="../parallax-about/index.html" class="navigation-link" target="_blank" rel="noopener noreferrer">
 						About
 					</a>
 				</li>
 				<li class="navigation-item ib">
-					<a href="../credits-page/index.html" class="navigation-link">
+					<a href="../credits-page/index.html" class="navigation-link" target="_blank" rel="noopener noreferrer">
 						Credits
 					</a>
 				</li>
@@ -36,57 +33,116 @@
 			</ul>
 		</div>
 	</nav>
-	<div class="wrapper">
-		<h1 class="site-title">
-			Here are some frequently asked <br>
-			questions about Fire Ecology
-		</h1>
-	</div>
-</header>
+<div class='centerplease'>
+  Some Frequently asked questions about Fire Ecology
+</div>
+<br>
 
-<main class="main" role="main">
-	<div class="wrapper">
-		<article class="content-article">
-			<h1>1. What is Fire Ecology?</h1>
-			<p>Fire ecology is the study of the role of fire in ecosystems, including its effects on plants, animals, and the environment.</p>
-		</article>
-		<article class="content-article">
-			<h1>2. Why do some ecosystems need fire?</h1>
-			<p>Fire can play a crucial role in maintaining ecosystem health by reducing overgrowth, releasing nutrients, and promoting the growth of fire-adapted species.</p>
-		</article>
-		<article class="content-article">
-			<h1>3. How do plants and animals adapt to fire?</h1>
-			<p>Many plants have evolved adaptations like fire-resistant bark or serotinous cones that release seeds after a fire. Animals may flee, burrow, or use camouflage to survive.</p>
-		</article>
-		<article class="content-article">
-			<h1>4. What are the natural causes of wildfires?</h1>
-			<p>Lightning strikes are a primary natural cause of wildfires. Human activities also contribute significantly to wildfire occurrences.</p>
-		</article>
-		<article class="content-article">
-			<h1>5. How do humans impact fire ecology?</h1>
-			<p>Humans alter fire patterns through land use changes, such as urbanization and fire suppression, which can disrupt natural fire regimes.</p>
-		</article>
-		<article class="content-article">
-			<h1>6. What is a fire regime?</h1>
-			<p>A fire regime describes the patterns and characteristics of fires in a specific ecosystem, including their frequency, intensity, and seasonality.</p>
-		</article>
-		<article class="content-article">
-			<h1>7. Can fires be beneficial for ecosystems?</h1>
-			<p>Yes, controlled or prescribed fires can mimic natural fire regimes, reducing fuel buildup and promoting biodiversity. They also help prevent larger, uncontrolled wildfires.</p>
-		</article>
-		<article class="content-article">
-			<h1>8. What are the negative impacts of wildfires?</h1>
-			<p>Uncontrolled wildfires can lead to loss of life, destruction of property, habitat loss, air pollution, and soil erosion.</p>
-		</article>
-		<article class="content-article">
-			<h1>9. How do scientists manage and study fire ecology?</h1>
-			<p>Scientists use tools like remote sensing, field studies, and computer models to understand fire behavior, effects, and its role in different ecosystems.</p>
-		</article>
-		<article class="content-article">
-			<h1>10. Can climate change affect fire ecology?</h1>
-			<p>Yes, climate change can alter fire patterns by influencing factors like temperature, precipitation, and vegetation, potentially leading to more frequent and intense wildfires.</p>
-		</article>
+<div class="content">
+<div>
+  <input type="checkbox" id="question1" name="q"  class="questions">
+  <div class="plus">+</div>
+  <label for="question1" class="question">
+    1. What is Fire Ecology?
+  </label>
+  <div class="answers">
+	Fire ecology is the study of the role of fire in ecosystems, including its effects on plants, animals, and the environment.
+</div>
+</div>
+
+<div>
+  <input type="checkbox" id="question2" name="q" class="questions">
+  <div class="plus">+</div>
+  <label for="question2" class="question">
+    2. Why do some ecosystems need fire?
+  </label>
+  <div class="answers">
+    Fire can play a crucial role in maintaining ecosystem health by reducing overgrowth, releasing nutrients, and promoting the growth of fire-adapted species.
+  </div>
+</div>
+
+<div>
+	<input type="checkbox" id="question3" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question3" class="question">
+	  3. How do plants and animals adapt to fire?
+  </label>
+	<div class="answers">
+	  Many plants have evolved adaptations like fire-resistant bark or serotinous cones that release seeds after a fire. Animals may flee, burrow, or use camouflage to survive.
+	  </div>
+  </div>
+  <div>
+	<input type="checkbox" id="question4" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question4" class="question">
+		4. What are the natural causes of wildfires?
+	</label>
+	<div class="answers">
+		Lightning strikes are a primary natural cause of wildfires. Human activities also contribute significantly to wildfire occurrences.
 	</div>
-</main>
+  </div>
+  <div>
+	<input type="checkbox" id="question5" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question5" class="question">
+		5. How do humans impact fire ecology?
+	</label>
+	<div class="answers">
+		Humans alter fire patterns through land use changes, such as urbanization and fire suppression, which can disrupt natural fire regimes.
+	</div>
+  </div>
+  <div>
+	<input type="checkbox" id="question6" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question6" class="question">
+		6. What is a fire regime?
+	</label>
+	<div class="answers">
+		A fire regime describes the patterns and characteristics of fires in a specific ecosystem, including their frequency, intensity, and seasonality.
+	</div>
+  </div>
+  <div>
+	<input type="checkbox" id="question7" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question7" class="question">
+		7. Can fires be beneficial for ecosystems?
+	</label>
+	<div class="answers">
+		Yes, controlled or prescribed fires can mimic natural fire regimes, reducing fuel buildup and promoting biodiversity. They also help prevent larger, uncontrolled wildfires.
+	</div>
+  </div>
+  <div>
+	<input type="checkbox" id="question8" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question8" class="question">
+		8. What are the negative impacts of wildfires?
+	</label>
+	<div class="answers">
+		Uncontrolled wildfires can lead to loss of life, destruction of property, habitat loss, air pollution, and soil erosion.
+	</div>
+  </div>
+  <div>
+	<input type="checkbox" id="question9" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question9" class="question">
+		9. How do scientists manage and study fire ecology?
+	</label>
+	<div class="answers">
+		Scientists use tools like remote sensing, field studies, and computer models to understand fire behavior, effects, and its role in different ecosystems.
+	</div>
+  </div>
+  <div>
+	<input type="checkbox" id="question10" name="q" class="questions">
+	<div class="plus">+</div>
+	<label for="question10" class="question">
+		10. Can climate change affect fire ecology?
+	</label>
+	<div class="answers">
+		Yes, climate change can alter fire patterns by influencing factors like temperature, precipitation, and vegetation, potentially leading to more frequent and intense wildfires.
+	</div>
+  </div>
+
+</div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js" defer></script>
 </body>
 </html>

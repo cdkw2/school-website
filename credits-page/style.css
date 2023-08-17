@@ -7,7 +7,7 @@ body {
   margin:0px;
   padding:0px;
   box-sizing:border-box;
-  background-image: url("river-moving.gif");
+  background-image: url("./river-moving.gif");
   background-size: cover;
 }
 
@@ -16,7 +16,7 @@ nav {
   justify-content:space-around;
   align-items:center;
   min-height:8vh;
-  width:AUTO;
+  width:auto;
   background-color:#252B48;
   color:white;
   font-family: 'Poppins';
@@ -51,7 +51,7 @@ a:link, a:visited {
 }
 
 .title {
-  color:#d3d3d3;
+  color:#ffffff;
   text-align:center;
   font-family: 'Playfair Display', serif;
   font-weight:900;
@@ -74,7 +74,7 @@ a:link, a:visited {
 }
 
 .pictures {
-  width:280px;
+  width:300px;
 }
 
 .name {
