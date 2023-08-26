@@ -147,10 +147,9 @@ h2{
 section {
   position: relative;
   display: flex;
-  min-height: 100vh;
+  min-height: 69vh;
   padding: 2em 3em;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   font-size: 1rem;
   border-radius: 1em;

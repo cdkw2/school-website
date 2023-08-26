@@ -3,7 +3,7 @@
 body {
   font-family: 'Open Sans';
   font-size: 1.5em;
-  background-image: url('./background.jpeg');
+  background-color: #DFC5FE;
   background-size: cover;
   background-position: center;
 }
@@ -28,7 +28,7 @@ body {
 	margin: 0;
 	line-height: 1.5;
 	font-family: Roboto, Helvectica, Arial, sans-serif;
-	color: #e6e6e6;
+	color: #504099;
 }
 
 
@@ -193,7 +193,7 @@ a:active {
   background: #ffffff27;
   margin: 0;
   padding: 10px 10px 10px 50px;
-  display: block;
+  display: flex;
   width:100%;
   cursor: pointer;
 }
@@ -208,6 +208,7 @@ a:active {
   z-index: -1;
   position: relative;
   opacity: 0;
+  text-align: left;
   -webkit-transition: .7s ease;
   -moz-transition: .7s ease;
   -o-transition: .7s ease;
